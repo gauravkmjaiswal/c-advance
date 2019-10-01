@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+int i,u=0,y=0,e=0,h;
+cout<<"enter the value of element";
+cin>>i;
+int ar[i];
+cout<<"enter all value  of ar element";
+for(int e=0;e<i;e=e+1)
+{
+    cin>>h;
+    ar[e]=h;
+}
+for(int j=0;j<i;j=j+1)
+{
+    for(int p=j;p<i && ar[j]!='*' && ar[p]!='*';p=p+1)
+    {
+        if(ar[p]==ar[j])
+            {u=u+1;
+            if(u==2)
+                ar[p]='*';
+
+        if(u==2)
+            {y=y+1;
+             u=0;
+
+             }}
+        if(u==2)
+            break;
+     }
+u=0;
+}
+cout<<"total pair are";
+cout<<y;
+}
