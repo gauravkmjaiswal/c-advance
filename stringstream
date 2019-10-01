@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{int x,y,z;
+char c1;
+
+    stringstream s("23,67,87");
+    s>>x;
+    cout<<x<<c1<<y<<c1<<z;
+
+    return 0;
+
+}
