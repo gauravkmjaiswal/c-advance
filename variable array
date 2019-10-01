@@ -1,0 +1,57 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,f,c,g,u;
+    cin>>a>>c;
+    int arr[a];
+    int crr[c][2];
+    vector<int> g1;
+    arr[0]=0;
+     int brr[a];
+     brr[0]=0;
+    for(int e=0;e<a;e++)
+    {cin>>g;
+
+
+    for(int y=0;y<g;y++)
+    {   cin>>f;
+        g1.push_back(f); int brr[a];
+
+    }
+    arr[e+1]=g;
+    u=arr[e+1]+u;
+    brr[e+1]=u;
+
+    }
+
+
+    int WSX,ASD,AXC;
+    for(int s=0;s<c;s++)
+    {
+        for(int l=0;l<2;l++)
+{
+
+    cin>>crr[s][l];
+
+}
+
+    }
+    for(int SD=0 ;SD<c;SD++)
+    {
+
+
+
+     ASD=crr[SD][0];
+     AXC=crr[SD][1];
+
+        WSX=brr[ASD]+AXC;
+
+        cout<<g1[WSX]<<"\n";
+
+
+
+    }
+
+    return 0;
+}
